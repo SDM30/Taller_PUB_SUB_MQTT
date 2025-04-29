@@ -3,7 +3,7 @@ import barcode
 from barcode.writer import ImageWriter
 
 # Establecer los primeros 5 dígitos de 1 a 5, pero comenzando con 1
-first_digits = '34751'
+first_digits = '34251'
 
 # Los siguientes 7 dígitos se generan aleatoriamente
 remaining_digits = ''.join(str(random.randint(0, 9)) for _ in range(7))
